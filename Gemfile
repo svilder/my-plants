@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'simple_form'
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
