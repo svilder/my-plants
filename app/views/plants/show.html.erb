@@ -10,5 +10,9 @@
   <%= @plant.description %>
 </p>
 
+<p>
+  <%= cl_image_tag @plant.photo.key, height: 300, crop: :fill, alt: "belle plante" %>
+</p>
+
 <%= link_to 'Edit', edit_plant_path(@plant) %> |
 <%= link_to 'Back', root_path %>
